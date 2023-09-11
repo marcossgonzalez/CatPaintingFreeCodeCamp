@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #c9d2fc;
+}
+.cat-head{
+    width: 205px;
+    height: 180px;
+    border: 1px solid #000;
+    border-radius: 46%;
+    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
