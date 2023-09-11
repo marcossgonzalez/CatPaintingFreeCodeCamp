@@ -18,3 +18,53 @@ body{
     margin: auto;
     
 }
+.cat-left-ear{
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    position: absolute;
+    top: -26px;
+    left: -31px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+.cat-right-ear{
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid #5e5e5e;
+    position: absolute;
+    top: -26px;
+    left: 163px;
+    transform: rotate(45deg);
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+/*'z-index' é uma propriedade que você pode usar para definir 
+a ordem dos elementos HTML sobrepostos.*/
+.cat-left-inner-ear{
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+}
+.cat-right-inner-ear{
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #3b3b4f;
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+}
